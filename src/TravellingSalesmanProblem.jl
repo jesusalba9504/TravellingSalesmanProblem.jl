@@ -1,5 +1,11 @@
 module TravellingSalesmanProblem
 
-greet() = print("Hello World!")
+using JuMP, GLPK
+
+export solve_TSP
+
+export hacematrixdedistancias
+
+include("solving_TSP.jl")
 
 end # module
